@@ -9,7 +9,7 @@ int main() {
 
     string input;
 
-    ifstream File("inputtest.txt");
+    ifstream File("input.txt");
 
     while(getline(File, input)) {
 
