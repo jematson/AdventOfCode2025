@@ -1,3 +1,8 @@
+// day8.cpp
+// Jenae Matson
+// 2025-12-08
+// Solution for Advent of Code 2025 Day 8
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -7,6 +12,7 @@
 
 using namespace std;
 
+// Calculate Euclidian distance between 3 dimensional points
 size_t distance(vector<int> a, vector<int> b) {
     size_t x = a[0] - b[0];
     size_t y = a[1] - b[1];
